@@ -29,7 +29,7 @@ Source data provided by Pewlett-Hackard, see ERD below:
 
 Four major points from the two deliverables are:
 1. Approximately 72,500 employees are eligible to retire.
-2. Of the retiring employees, 36% are Senior Engineers and 34% are Senior Staff.  
+2. Of the retiring employees, 36% are Senior Engineers and 34% are Senior Staff.  So, 70% of the retiring employees are senior staff.
 
 ![Pewlett-Hackard Retiring Employees](Retiring_Employee_Title_Count.PNG)
 
@@ -39,18 +39,18 @@ Four major points from the two deliverables are:
 ![Pewlett-Hackard Mentoring Employees](Mentoring_Employee_Title_Count.PNG)
 
 ### Summary Conclusions:
-1. How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 
 * The following table shows how many roles will need to be filled.
 
 ![Pewlett-Hackard Retiring Count](count.PNG)
 
-2. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett-Hackard employees?
+Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett-Hackard employees?
 
 * Based on an assumption that a mentor can be most successful working with a group of up to 50 employees, Pewlett-Hackard may have a shortage of retirement-ready         employees to mentor Senior Engineer and Senior Staff positions.
 
 ![Pewlett-Hackard Positions per Mentor](positions_per_mentor.PNG)
 
-3. Two additional queries or tables that may provide additional insight are:
+Two additional queries or tables that may provide additional insight are:
 * An assessment of new-hire progression in the company, both by salary growth and title promotions
 * An assessment of how many employees have left the company within five years of starting and a root-cause analysis
