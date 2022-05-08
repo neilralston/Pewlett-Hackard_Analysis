@@ -2,7 +2,7 @@
 
 [Link to pgAdmin SQL code](Employee_Database_challenge.sql)
 
-[Link to retirements titles csv](Data/retiring_titles.csv)
+[Link to retirement titles csv](Data/retirement_titles.csv)
 
 [Link to unique titles csv](Data/unique_titles.csv)
 
