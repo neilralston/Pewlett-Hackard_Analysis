@@ -41,17 +41,17 @@ Four major points from the two deliverables are:
 ### Summary Conclusions:
 1. How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 
-The following table shows how many roles will need to be filled.
+  The following table shows how many roles will need to be filled.
 
-![Pewlett-Hackard Retiring Count](count.PNG)
+  ![Pewlett-Hackard Retiring Count](count.PNG)
 
 2. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett-Hackard employees?
 
-Based on an assumption that a mentor can be most successful working with a group of up to 50 employees, Pewlett-Hackard may have a shortage of retirement-ready employees to mentor Senior Engineer and Senior Staff positions.
+  Based on an assumption that a mentor can be most successful working with a group of up to 50 employees, Pewlett-Hackard may have a shortage of retirement-ready         employees to mentor Senior Engineer and Senior Staff positions.
 
-![Pewlett-Hackard Retiring Count](count_mentor.PNG)
+  ![Pewlett-Hackard Retiring Count](count_mentor.PNG)
 
-![Pewlett-Hackard Positions per Mentor](positions_per_mentor.PNG)
+  ![Pewlett-Hackard Positions per Mentor](positions_per_mentor.PNG)
 
 3. Two additional queries or tables that may provide additional insight are:
 * An assessment of new-hire progression in the company, both by salary growth and title promotions
