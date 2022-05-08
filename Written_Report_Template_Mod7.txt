@@ -5,15 +5,15 @@
 ## Overview of Pewlett-Hackard Analysis
 
 ### Purpose
-Created a database and completed an analysis of Pewlett-Hackard employment records to:
+Created a SQL database and completed an analysis of Pewlett-Hackard employment records to:
 * Determine the number of retiring employees per title
-* Identify employees who are eligible to particpate in a mentorship program
+* Identify employees who are eligible to participate in a mentorship program
 
 Provided the following data tables:
 
 1. List of employees retiring by title
-2. Count of employees retirig by title
-3. List of table of employees eligible to partipcate in the mentorship program
+2. Count of employees retiring by title
+3. List of table of employees eligible to participate in the mentorship program
 
 ### Resources
 
@@ -33,7 +33,7 @@ Four major points from the two deliverables are:
 
 ![Pewlett-Hackard Retiring Employees](Retiring_Employee_Title_Count.PNG)
 
-3. Approximately 1,550 employees are eligible to partipcate in the mentoring program.
+3. Approximately 1,550 employees are eligible to participate in the mentoring program.
 4. Of the eligible employees, 27% are Engineers and 28% are Senior Staff.
 
 ![Pewlett-Hackard Mentoring Employees](Mentoring_Employee_Title_Count.PNG)
