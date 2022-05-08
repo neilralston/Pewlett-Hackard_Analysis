@@ -2,6 +2,14 @@
 
 [Link to pgAdmin SQL code](Employee_Database_challenge.sql)
 
+[Link to retirements titles csv](Data/retirements_titles.csv)
+
+[Link to unique titles csv](Data/unique_titles.sql)
+
+[Link to retiring titles csv](Data/retiring_titles.csv)
+
+[Link to mentorship eligibility csv](Data/mentorship_eligibility.csv)
+
 ## Overview of Pewlett-Hackard Analysis
 
 ### Purpose
