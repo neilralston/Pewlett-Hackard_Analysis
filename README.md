@@ -1,6 +1,6 @@
 # Pewlett-Hackard Analysis (Module 7)
 
-[Link to pgAdmin SQL code](Employee.Database_challenge.sql)
+[Link to pgAdmin SQL code](Employee_Database_challenge.sql)
 
 ## Overview of Pewlett-Hackard Analysis
 
