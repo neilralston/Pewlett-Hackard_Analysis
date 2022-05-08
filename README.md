@@ -4,7 +4,7 @@
 
 [Link to retirements titles csv](Data/retiring_titles.csv)
 
-[Link to unique titles csv](Data/unique_titles.sql)
+[Link to unique titles csv](Data/unique_titles.csv)
 
 [Link to retiring titles csv](Data/retiring_titles.csv)
 
