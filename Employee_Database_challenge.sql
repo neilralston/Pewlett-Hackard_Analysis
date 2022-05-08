@@ -23,7 +23,7 @@ WHERE retirement_info_title.to_date = ('9999-01-01')
 ORDER BY emp_no, to_date DESC;
 
 SELECT COUNT (unique_titles.emp_no), unique_titles.title
-INTO retiring_titles
+--INTO retiring_titles
 FROM unique_titles
 GROUP BY title
 ORDER BY COUNT (title) DESC;
@@ -44,3 +44,9 @@ ON employees.emp_no = titles.emp_no
 WHERE dept_employees.to_date = ('9999-01-01')
 AND (employees.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY emp_no;
+
+SELECT COUNT (mentor_elig.emp_no), mentor_elig.title
+FROM mentor_elig
+GROUP BY title
+ORDER BY COUNT (title) DESC;
+

@@ -1,70 +1,60 @@
-# PyBer with Matplotlib (Module 5)
+# Pewlett-Hackard Analysis (Module 7)
 
-[Link to Jupyter Notebook code](PyBer_Challenge.ipynb)
+[Link to pgAdmin SQL code](Employee.Database_challenge.sql)
 
-## Overview of PyBer Ride Sharing Data Analysis
+## Overview of Pewlett-Hackard Analysis
 
 ### Purpose
-Completed an analysis of PyBer ride sharing data across a cross-section of markets comprised of urban, suburban, and rural communities.
+Created a database and completed an analysis of Pewlett-Hackard employment records to:
+* Determine the number of retiring employees per title
+* Identify employees who are eligible to particpate in a mentorship program
 
-Provided the following assessments:
+Provided the following data tables:
 
-1. For each PyBer city type, calculated the following:
-	* Total number of rides
-	* Total number of drivers
-	* Total fares
-	* Average fare per ride
-	* Average fare per driver
-
-2. Prepared a multiple-line graph depicting total fares for each week between January 1 and April 28, 2019 by city type
+1. List of employees retiring by title
+2. Count of employees retirig by title
+3. List of table of employees eligible to partipcate in the mentorship program
 
 ### Resources
 
 This project was prepared using the following:
-* Python 3.7.6
-* Matplotlib 3.4.3
-* Anaconda 4.12.0
-* Jupyter Notebook 6.4.5
-* Matplotlib 3.4.3
+* PostgreSQL version 11.15-2
+* pgAmdin 4 version 6.7
 
-Source data provided by PyBer: 
+Source data provided by Pewlett-Hackard, see ERD below:
 
-[Link to city data](Resources/city_data.csv)
+![Pewlett-Hackard Data ERD](Employee_ERD.PNG)
 
-[Link to ride data](Resources/ride_data.csv)
+## Pewlett-Hackard Results
 
-## PyBer Analysis Results
+Four major points from the two deliverables are:
+1. Approximately 72,500 employees are eligible to retire.
+2. Of the retiring employees, 36% are Senior Engineers and 34% are Senior Staff.  
+
+![Pewlett-Hackard Retiring Employees](Retiring_Employee_Title_Count.PNG)
+
+3. Approximately 1,550 employees are eligible to partipcate in the mentoring program.
+4. Of the eligible employees, 27% are Engineers and 28% are Senior Staff.
+
+![Pewlett-Hackard Mentoring Employees](Mentoring_Employee_Title_Count.PNG)
 
 ### Summary Conclusions:
-The analysis yielded the following conclusions:
+1. How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 
-* Total Rides: Urban communities accounted for approximately 68% of total rides generated.
+The following table shows how many roles will need to be filled.
 
-![Pyber Total Rides chart](analysis/Fig6.png)
+![Pewlett-Hackard Retiring Count](count.PNG)
 
-* Total Drivers: Urban communities accounted for approximately 81% of total drivers.
+2. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett-Hackard employees?
 
-![Pyber Total Rides chart](analysis/Fig7c.png)
+Based on an assumption that a mentor can be most successful working with a group of up to 50 employees, Pewlett-Hackard may have a shortage of retirement-ready employees to mentor Senior Engineer and Senior Staff positions.
 
-* Total Fares: Urban communities accounted for approximately 63% of total fares.
+![Pewlett-Hackard Retiring Count](count_mentor.PNG)
 
-![Pyber Total Rides chart](analysis/Fig5.png)
+![Pewlett-Hackard Positions per Mentor](positions_per_mentor.PNG)
 
-* Average Fare per Ride: Rural communities generated the highest average fare per ride.
+3. Two additional queries or tables that may provide additional insight are:
+* An assessment of new-hire progression in the company, both by salary growth and title promotions
+* An assessment of how many employees have left the company within five years of starting and a root-cause analysis
 
-* Average Fare Per Driver: Rural communities also generated the highest average fare per driver.
 
-![Pyber Summary Table](analysis/PyBer_summary_table.PNG)
-
-* Total Fare by City Type: An assessment of total weekly fares by city type between January 1 and April 28, 2019 indicates that suburban trips peaked during the week of February 24, urban trips the week of March 10, and rural trips the week of April 7. 
-
-![Pyber Weekly Fares Chart](analysis/PyBer_fare_summary.png)
-
-## PyBer Analysis Summary
-
-### Recommendations
-The following recommendations are provided to address disparities among the city types:
-
-1. Pyber could consider a campaign to recruit additional drivers in rural communities as the average fare per ride and per driver are higher.
-2. As the peak level fare generation occurred during a different week for each community type, Pyber could consider shifting some drivers within its system to better match ride demand with driver availability.
-3. Pyber could continue the weekly fare trend analysis to determine if the strong growth in suburban fare generation continued into the summer months; if so, a promotional campaign may be warranted. 
