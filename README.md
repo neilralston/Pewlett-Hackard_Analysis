@@ -4,11 +4,11 @@
 
 [Link to retirement titles csv](Data/retirement_titles.csv)
 
-[Link to unique titles csv](Data/unique_titles.csv)
+[Link to unique retirement titles csv](Data/unique_titles.csv)
 
-[Link to retiring titles csv](Data/retiring_titles.csv)
+[Link to retiring titles count csv](Data/retiring_titles.csv)
 
-[Link to mentorship eligibility csv](Data/mentorship_eligibility.csv)
+[Link to mentorship eligibility csv](Data/mentorship_eligibility.csv.csv)
 
 ## Overview of Pewlett-Hackard Analysis
 
